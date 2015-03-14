@@ -1,0 +1,137 @@
+.btn-auth {
+  position: relative;
+  display: inline-block;
+  height: 22px;
+  padding: 0 1em;
+  border: 1px solid #999;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #222;
+  background: #fff;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  /*IOS*/
+  -webkit-appearance: none;
+  /*IE6/7 HACKS */
+  *overflow: visible;
+  *display: inline;
+  *zoom: 1;
+  /* ------------=RemoveExcessPaddingAndBorderInFF3---------------->
+  <--######### =RemoveExcessPaddingAndBorderInFF3 ###########-->
+  <--######### =RemoveExcessPaddingAndBorderInFF3 ###########-->
+  <--------------=RemoveExcessPaddingAndBorderInFF3-------------- */ }
+  .btn-auth:before {
+    content: "";
+    float: left;
+    width: 22px;
+    height: 22px;
+    background: url(../img/auth-icons.png) no-repeat 99px 99px; }
+  .btn-auth:hover, .btn-auth:focus, .btn-auth:active {
+    color: #222;
+    text-decoration: none; }
+  .btn-auth::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+/* ------------=Facebook(extends.btn-auth)---------------->
+<--######### =Facebook(extends.btn-auth) ###########-->
+<--######### =Facebook(extends.btn-auth) ###########-->
+<--------------=Facebook(extends.btn-auth)-------------- */
+/*colors*/
+.btn-facebook {
+  border-color: #29447e;
+  border-bottom-color: #1a356e;
+  background-color: #5872a7;
+  color: #fff;
+  /*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #637bad), color-stop(100%, #5872a7));
+  background-image: -webkit-linear-gradient(#637bad, #5872a7);
+  background-image: -moz-linear-gradient(#637bad, #5872a7);
+  background-image: -o-linear-gradient(#637bad, #5872a7);
+  background-image: linear-gradient(#637bad, #5872a7);
+  */-webkit-box-shadow: inset 0 1px 0 #879ac0;
+  -moz-box-shadow: inset 0 1px 0 #879ac0;
+  box-shadow: inset 0 1px 0 #879ac0;
+  /*icon*/ }
+  .btn-facebook:hover, .btn-facebook:focus {
+    color: #fff;
+    background-color: #3b5998; }
+  .btn-facebook:active {
+    color: #fff;
+    background: #4f6aa3;
+    -webkit-box-shadow: inset 0 1px 0 #45619d;
+    -moz-box-shadow: inset 0 1px 0 #45619d;
+    box-shadow: inset 0 1px 0 #45619d; }
+  .btn-facebook:before {
+    border-right: 1px solid #465f94;
+    margin: 0 1em 0 -1em;
+    background-position: 0px 0px; }
+
+/* ------------=Twitter extend (btn-auth)---------------->
+<--######### =Twitter extend (btn-auth) ###########-->
+<--######### =Twitter extend (btn-auth) ###########-->
+<--------------=Twitter extend (btn-auth)-------------- */
+.btn-twitter {
+  border-color: #a6cde6;
+  color: #327695 !important;
+  background: #cfe4f0;
+  /*css3*/
+  /*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1f5f7), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  *//*Icon*/ }
+  .btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active {
+    color: #327695;
+    border-color: #8dc2e4;
+    background-color: #cadde9; }
+  .btn-twitter:active {
+    background: #cadde9;
+    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    -moz-box-shadow: inset 0 1px 0 #bbd6e7;
+    box-shadow: inset 0 1px 0 #bbd6e7; }
+  .btn-twitter:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -22px 0; }
+
+.btn-youtube {
+  border-color: #a6cde6;
+  color: #327695 !important;
+  background: #cfe4f0;
+  /*css3*/
+  /*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1f5f7), color-stop(100%, rgba(255, 255, 255, 0)));
+  background-image: -webkit-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  background-image: -moz-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(#f1f5f7, rgba(255, 255, 255, 0));
+  *//*Icon*/ 
+	}
+	
+.btn-youtube:hover, .btn-youtube:focus, .btn-youtube:active {
+    color: #327695;
+    border-color: #8dc2e4;
+    background-color: #cadde9; 
+	}
+ 
+.btn-youtube:active {
+    background: #cadde9;
+    -webkit-box-shadow: inset 0 1px 0 #bbd6e7;
+    -moz-box-shadow: inset 0 1px 0 #bbd6e7;
+    box-shadow: inset 0 1px 0 #bbd6e7; 
+	}
+  
+.btn-youtube:before {
+    margin: 0 0.6em 0 -0.6em;
+    background-position: -22px 0; 
+	}

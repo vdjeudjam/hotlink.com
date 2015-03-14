@@ -1,0 +1,27 @@
+body{
+	padding: 0;
+	margin:0;
+	/*min-width: 900px;*/
+	color: #272A2A;
+	background-color: #B7BDBC;
+	}
+
+#container{
+	/*background-color: green;*/
+	margin-left: 210px;
+	background-image: url('../images/Bottom_texture.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: top left;
+	padding: 0;
+	position: relative;
+	width: 800px;
+	radius-border: 5px, 5px, 5px, 5px;/*height:700px;*/
+	}
+	
+
+#header{
+	text-align: center;
+	/*float: right;*/
+	}
+
